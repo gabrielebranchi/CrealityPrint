@@ -15,31 +15,31 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 
 msgid "Assembly"
-msgstr "Assemblaggio"
+msgstr "Assieme"
 
 msgid "Undefined"
-msgstr "Indefinito"
+msgstr "Non Definito"
 
 msgid "Inner wall"
-msgstr "Parete interna"
+msgstr "Parete Interna"
 
 msgid "Outer wall"
-msgstr "Parete esterna"
+msgstr "Parete Esterna"
 
 msgid "Overhang wall"
-msgstr "Parete a sbalzo"
+msgstr "Parete a Sbalzo"
 
 msgid "Sparse infill"
 msgstr "Riempimento"
 
 msgid "Internal solid infill"
-msgstr "Riempimento solido interno"
+msgstr "Riempimento Solido Interno"
 
 msgid "Top surface"
-msgstr "Superficie superiore"
+msgstr "Superficie Superiore"
 
 msgid "Bottom surface"
-msgstr "Superficie inferiore"
+msgstr "Superficie Inferiore"
 
 msgid "Ironing"
 msgstr "Stiratura"
@@ -48,10 +48,10 @@ msgid "Bridge"
 msgstr "Ponte"
 
 msgid "Internal Bridge"
-msgstr "Ponte interno"
+msgstr "Ponte Interno"
 
 msgid "Gap infill"
-msgstr "Riempimento gap"
+msgstr "Riempimento Gap"
 
 msgid "Skirt"
 msgstr "Skirt"
@@ -63,10 +63,10 @@ msgid "Support"
 msgstr "Supporto"
 
 msgid "Support interface"
-msgstr "Interfaccia supporto"
+msgstr "Interfaccia di Supporto"
 
 msgid "Support transition"
-msgstr "Supporto alla transizione"
+msgstr "Transizione Supporto"
 
 msgid "Prime tower"
 msgstr "Prime tower"
@@ -114,40 +114,40 @@ msgstr ""
 "l'oggetto potrebbe avere una mesh difettosa."
 
 msgid "Machine start G-code"
-msgstr "G-code avvio della macchina"
+msgstr "G-code di Avvio della macchina"
 
 msgid "Machine end G-code"
-msgstr "Fine G-code"
+msgstr "G-code di Fine della macchina"
 
 msgid "Before layer change G-code"
 msgstr "G-code prima del cambio layer"
 
 msgid "Layer change G-code"
-msgstr "G-code cambio layer"
+msgstr "G-code di cambio layer"
 
 msgid "Time lapse G-code"
 msgstr "Time lapse G-code"
 
 msgid "Change filament G-code"
-msgstr "G-code cambio filamento"
+msgstr "G-code di cambio filamento"
 
 msgid "Printing by object G-code"
 msgstr "Stampa per oggetto G-code"
 
 msgid "Change extrusion role G-code"
-msgstr "Modificare il codice G del ruolo di estrusione"
+msgstr "Modificare il G-code del ruolo di estrusione"
 
 msgid "Pause G-code"
-msgstr "G-code Pausa"
+msgstr "Pausa G-code"
 
 msgid "Template Custom G-code"
-msgstr "Modello G-code personalizzato"
+msgstr "Modello G-code Personalizzato"
 
 msgid "Filament start G-code"
-msgstr "G-code Iniziale Filamento"
+msgstr "G-code di Start Filamento"
 
 msgid "Filament end G-code"
-msgstr "G-code Finale Filamento"
+msgstr "G-code di Fine Filamento"
 
 msgid "No object can be printed. Maybe too small"
 msgstr ""
@@ -165,7 +165,7 @@ msgid ""
 "Failed to generate gcode for invalid custom G-code.\n"
 "\n"
 msgstr ""
-"Impossibile generare il G-code per G-code personalizzato non valido.\n"
+"Impossibile generare il G-code per G-code personalizzato invalido.\n"
 "\n"
 
 msgid "Please check the custom G-code or use the default custom G-code."
@@ -190,7 +190,7 @@ msgid "unsupported method"
 msgstr "metodo non supportato"
 
 msgid "unsupported encryption"
-msgstr "criptaggio non supportato"
+msgstr "crittografia non supportata"
 
 msgid "unsupported feature"
 msgstr "caratteristica non supportata"
@@ -199,10 +199,10 @@ msgid "failed finding central directory"
 msgstr "directory centrale non trovata"
 
 msgid "not a ZIP archive"
-msgstr "non un archivio ZIP"
+msgstr "non è un archivio ZIP"
 
 msgid "invalid header or corrupted"
-msgstr "intestazione non valida o danneggiata"
+msgstr "header non valida o danneggiata"
 
 msgid "unsupported multidisk"
 msgstr "Il salvataggio su RAID non supportato."
@@ -211,7 +211,7 @@ msgid "decompression failed"
 msgstr "decompressione fallita"
 
 msgid "compression failed"
-msgstr "Compressione non riuscita"
+msgstr "compressione fallita"
 
 msgid "unexpected decompressed size"
 msgstr "dimensione decompressa imprevista"
@@ -235,7 +235,7 @@ msgid "file write failed"
 msgstr "scrittura file fallita"
 
 msgid "file read failed"
-msgstr "lettura del file non riuscita"
+msgstr "lettura del file fallita"
 
 msgid "file close failed"
 msgstr "chiusura del file fallita"
@@ -244,7 +244,7 @@ msgid "file seek failed"
 msgstr "ricerca file fallita"
 
 msgid "file stat failed"
-msgstr "statistica file non riuscita"
+msgstr "statistica file fallita"
 
 msgid "invalid parameter"
 msgstr "parametro non valido"
@@ -262,10 +262,10 @@ msgid "file not found"
 msgstr "file non trovato"
 
 msgid "archive too large"
-msgstr "Archivio troppo grande"
+msgstr "archivio troppo grande"
 
 msgid "validation failed"
-msgstr "convalida non riuscita"
+msgstr "convalida fallita"
 
 msgid "write callback failed"
 msgstr "scrittura callback fallita"
@@ -374,7 +374,7 @@ msgid ""
 "You might want to reduce the size of your model or change current print "
 "settings and retry."
 msgstr ""
-"È possibile ridurre le dimensioni del modello o modificare le impostazioni "
+"Provare a ridurre le dimensioni del modello o modificare le impostazioni "
 "di stampa correnti e riprovare."
 
 msgid "Variable layer height is not supported with Organic supports."
@@ -383,20 +383,20 @@ msgstr "Layer ad altezza variabile non è compatibile con i Supporti Organici."
 # generated by robot
 msgid "Overhang Optimization is not supported with Organic supports."
 msgstr ""
-"L'ottimizzazione dell'overhang non è supportata con i supporti organici."
+"L'ottimizzazione dello sbalzo non è supportata con i supporti organici."
 
 msgid ""
 "Different nozzle diameters and different filament diameters is not allowed "
 "when prime tower is enabled."
 msgstr ""
 "Diametri degli ugelli diversi e diametri di filamento diversi non sono "
-"consentiti quando la torre Prime è abilitata."
+"consentiti quando la Prime Tower è abilitata."
 
 msgid ""
 "The Wipe Tower is currently only supported with the relative extruder "
 "addressing (use_relative_e_distances=1)."
 msgstr ""
-"Attualmente la Torre di pulitura è supportata solo con l'indirizzamento "
+"Attualmente la Wipe Tower è supportata solo con l'indirizzamento "
 "relativo dell'estrusore (use_relative_e_distances = 1)."
 
 # generated by robot
@@ -404,14 +404,14 @@ msgid ""
 "Ooze prevention is only supported with the wipe tower when "
 "'single_extruder_multi_material' is off."
 msgstr ""
-"La prevenzione degli ooze è supportata solo con la torre di cancellazione "
+"La prevenzione degli ooze è supportata solo con la Wipe Tower "
 "quando 'single_extruder_multi_material' è disattivata."
 
 msgid ""
 "The prime tower is currently only supported for the Marlin, RepRap/Sprinter, "
 "RepRapFirmware and Repetier G-code flavors."
 msgstr ""
-"La torre di spurgo è attualmente supportata solo per le versioni Marlin, "
+"La Primw Tower è attualmente supportata solo per le versioni Marlin, "
 "RepRap/Sprinter, RepRapFirmware e Repetier G-code."
 
 msgid "The prime tower is not supported in \"By object\" print."
@@ -495,7 +495,7 @@ msgstr ""
 "supporti."
 
 msgid "Layer height cannot exceed nozzle diameter"
-msgstr "L'altezza del layer non può superare il diametro del nozzle."
+msgstr "L'altezza del layer non può superare il diametro dell'estrusore."
 
 msgid ""
 "Relative extruder addressing requires resetting the extruder position at "
@@ -522,12 +522,12 @@ msgstr ""
 
 #, c-format, boost-format
 msgid "Plate %d: %s does not support filament %s"
-msgstr "Piatto %d: %s non supporta il filamento %s"
+msgstr "Il Piatto %d: %s non supporta il filamento %s"
 
 #, c-format, boost-format
 msgid "The flush multiplier setting is too low, value is %.2f"
 msgstr ""
-"L'impostazione del moltiplicatore di flush è troppo bassa, il valore è %.2f"
+"L'impostazione del moltiplicatore flush è troppo bassa, il valore è %.2f"
 
 msgid ""
 "Setting the jerk speed too low could lead to artifacts on curved surfaces"
@@ -598,7 +598,7 @@ msgid "Generating G-code"
 msgstr "Generazione G-code"
 
 msgid "Failed processing of the filename_format template."
-msgstr "Processing of the filename_format template failed."
+msgstr "Elaborazione del template filename_format fallita."
 
 msgid "Printable area"
 msgstr "Area di stampa"
@@ -623,7 +623,7 @@ msgid "Bed custom model"
 msgstr "Modello piano personalizzato"
 
 msgid "Elephant foot compensation"
-msgstr "Compensazione zampa d'elefante"
+msgstr "Compensazione Elephant Foot"
 
 msgid "Quality"
 msgstr "Qualità"
@@ -633,13 +633,13 @@ msgid ""
 "effect"
 msgstr ""
 "Questo parametro restringe il primo layer sul piatto di stampa per "
-"compensare l'effetto zampa d'elefante."
+"compensare l'effetto Elephant Foot."
 
 msgid "mm"
 msgstr "mm"
 
 msgid "Elephant foot compensation layers"
-msgstr "Layer di compensazione del piede elefante"
+msgstr "Layer di compensazione dell'Elephant Foot"
 
 msgid ""
 "The number of layers on which the elephant foot compensation will be active. "
@@ -647,13 +647,13 @@ msgid ""
 "the next layers will be linearly shrunk less, up to the layer indicated by "
 "this value."
 msgstr ""
-"Il numero di strati su cui sarà attivo la compensazione del piede degli "
-"elefanti. Il primo strato verrà ridotto dal valore di compensazione del "
-"piede degli elefanti, quindi gli strati successivi saranno ridotti in modo "
+"Il numero di strati su cui sarà attivo la compensazione dell'Elephant foot. "
+"Il primo strato verrà ridotto dal valore di compensazione dell'Elephant foot, "
+"quindi gli strati successivi saranno ridotti in modo "
 "linearmente ridotto, fino allo strato indicato da questo valore."
 
 msgid "layers"
-msgstr "layer"
+msgstr "layers"
 
 msgid "Layer height"
 msgstr "Altezza layer"
@@ -662,12 +662,12 @@ msgid ""
 "Slicing height for each layer. Smaller layer height means more accurate and "
 "more printing time"
 msgstr ""
-"Indical'altezza di ogni layer. Un'altezza minore del layer implica una "
+"Altezza di slice di ogni layer. Un'altezza minore del layer implica una "
 "maggiore precisione a fronte di un tempo di stampa più lungo."
 
 # generated by robot
 msgid "Overhang Optimization(Beta)"
-msgstr "Ottimizzazione overhang(Beta)"
+msgstr "Ottimizzazione Overhang(Beta)"
 
 # generated by robot
 msgid "Adaptive height and line width for each layer. "
